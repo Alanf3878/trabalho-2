@@ -1,32 +1,23 @@
 let idade = 19
+
 if(idade > 18 ){
     console.log("voce é maior de 18")
-
 } else{
     console.log("você não é maior de idade")
-
 }
-
 console.log(idade)
 
-let maturidade = 18
-let humana = true
+let num = 18
+let hum = true
 
-if (maturidade >= 18 && humana === true){
+if (num >= 18 && hum === true){
     console.log ("Você é maior de idade e também é humano")
 } else{
     console.log ("Você não é maior de idade e não é humano")
 }
 
 
-
-
-
-
-
-
 let mês = "Dezembro"
-
 if ((mês === "Dezembro") || (mês === "Janeiro")){
     console.log("Você faz aniversário em Dezembro ou Janeiro")
 } else{
@@ -34,9 +25,7 @@ if ((mês === "Dezembro") || (mês === "Janeiro")){
 }
 
 
-
 let nome = "romario"
-
 if(nome.substring((0,1)) || ("r")){
 console.log("seu nome começa com a letra r")
 }
