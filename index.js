@@ -26,7 +26,7 @@ if ((mês === "Dezembro") || (mês === "Janeiro")){
 
 
 let nome = "romario"
-if(nome.substring((0,1)) || ("r")){
+if(nome.substring((0,1) || ("r")){
 console.log("seu nome começa com a letra r")
 }
 else{
